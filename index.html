@@ -29,7 +29,7 @@
           </button>
         </div>
       </form>
-      <form id="edit-form" class="">
+      <form id="edit-form" class="hide">
         <p>Edit your task:</p>
         <div class="form-control">
           <input type="text" id="edit-input" />
@@ -59,8 +59,20 @@
         </div>
       </div>
       <div id="todo-list">
-        <div class="todo">
+        <div class="todo done">
           <h3>I'm doing something...</h3>
+          <button class="finish-todo">
+            <i class="fa-solid fa-check"></i>
+          </button>
+          <button class="edit-todo">
+            <i class="fa-solid fa-pen"></i>
+          </button>
+          <button class="remove-todo">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <h3>Studying JavaScript</h3>
           <button class="finish-todo">
             <i class="fa-solid fa-check"></i>
           </button>
